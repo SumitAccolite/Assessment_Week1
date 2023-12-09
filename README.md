@@ -1,71 +1,71 @@
 # Assessment_Week1
 ## Output of Question 2
-*"C:\Program Files\Java\jdk-15.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=59275:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\sumit.bashetwar\demo\Reflection\target\classes org.example.MonsterRunner*
+*"C:\Program Files\Java\jdk-15.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=59275:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\sumit.bashetwar\demo\Reflection\target\classes org.example.MonsterRunner*<br />
 
 
-Number of Monsters to be Added:  
-4  
-Details for the 1th monster:  
-Enter Monster Name:   
-Bulbasaur  
-Enter the Eye Color of Monster:   
-Red  
-Enter Feather Color of Monster:   
-Green  
-Enter Magic used by Monster:   
-Nature  
-Enter Size of Monster in metres:   
-23  
-Enter Strength of Monster:   
-1882  
-Details for the 2th monster:  
-Enter Monster Name:   
-Pikachu  
-Enter the Eye Color of Monster:   
-Blue  
-Enter Feather Color of Monster:   
-Yellow  
-Enter Magic used by Monster:   
-Electricity  
-Enter Size of Monster in metres:   
-18  
-Enter Strength of Monster:   
-17267  
-Details for the 3th monster:  
-Enter Monster Name:   
-CharLizard  
-Enter the Eye Color of Monster:   
-Red  
-Enter Feather Color of Monster:   
-Orange  
-Enter Magic used by Monster:   
-Fire  
-Enter Size of Monster in metres:   
-92  
-Enter Strength of Monster:   
-187272  
-Details for the 4th monster:  
-Enter Monster Name:   
-Squirtle  
-Enter the Eye Color of Monster:   
-DarkBlue  
-Enter Feather Color of Monster:   
-Blue  
-Enter Magic used by Monster:   
-Water  
-Enter Size of Monster in metres:   
-65  
-Enter Strength of Monster:   
-15246  
-Monsters Created are:  
+Number of Monsters to be Added:  <br />
+4  <br />
+Details for the 1th monster:  <br />
+Enter Monster Name:   <br />
+Bulbasaur  <br />
+Enter the Eye Color of Monster:  <br /> 
+Red  <br />
+Enter Feather Color of Monster:   <br />
+Green  <br />
+Enter Magic used by Monster:   <br />
+Nature  <br />
+Enter Size of Monster in metres:  <br /> 
+23  <br />
+Enter Strength of Monster:   <br />
+1882  <br />
+Details for the 2th monster:  <br />
+Enter Monster Name:   <br />
+Pikachu  <br />
+Enter the Eye Color of Monster: <br />  
+Blue  <br />
+Enter Feather Color of Monster:  <br /> 
+Yellow  <br />
+Enter Magic used by Monster:   <br />
+Electricity  <br />
+Enter Size of Monster in metres:  <br /> 
+18  <br />
+Enter Strength of Monster:   <br />
+17267  <br />
+Details for the 3th monster:  <br />
+Enter Monster Name:   <br />
+CharLizard  <br />
+Enter the Eye Color of Monster:   <br />
+Red  <br />
+Enter Feather Color of Monster:   <br />
+Orange  <br />
+Enter Magic used by Monster:   <br />
+Fire  <br />
+Enter Size of Monster in metres:   <br />
+92  <br />
+Enter Strength of Monster:   <br />
+187272  <br />
+Details for the 4th monster:  <br />
+Enter Monster Name:   <br />
+Squirtle  <br />
+Enter the Eye Color of Monster: <br />  
+DarkBlue  <br />
+Enter Feather Color of Monster:   <br />
+Blue  <br />
+Enter Magic used by Monster:   <br />
+Water  <br />
+Enter Size of Monster in metres:   <br />
+65  <br />
+Enter Strength of Monster:   <br />
+15246  <br /><br />
+Monsters Created are:  <br />
   
-Pikachu: [Pikachu={eyeColor='Blue', featherColor='Yellow', magic='Electricity', size=18, strength=17267}]  
-CharLizard: [CharLizard={eyeColor='Red', featherColor='Orange', magic='Fire', size=92, strength=187272}]  
-Bulbasaur: [Bulbasaur={eyeColor='Red', featherColor='Green', magic='Nature', size=23, strength=1882}]  
-Squirtle: [Squirtle={eyeColor='DarkBlue', featherColor='Blue', magic='Water', size=65, strength=15246}]  
+Pikachu: [Pikachu={eyeColor='Blue', featherColor='Yellow', magic='Electricity', size=18, strength=17267}]  <br />
+CharLizard: [CharLizard={eyeColor='Red', featherColor='Orange', magic='Fire', size=92, strength=187272}]  <br />
+Bulbasaur: [Bulbasaur={eyeColor='Red', featherColor='Green', magic='Nature', size=23, strength=1882}]  <br />
+Squirtle: [Squirtle={eyeColor='DarkBlue', featherColor='Blue', magic='Water', size=65, strength=15246}]  <br />
   
-The kids Breeded are:  
-CharLizard {Parent1=CharLizard, Parent2=Squirtle}  
-={eyeColor='DarkBlue', featherColor='Orange', magic='Fire', size=65, strength=187272}  
+The kids Breeded are:  <br />
+CharLizard {Parent1=CharLizard, Parent2=Squirtle}  <br />
+={eyeColor='DarkBlue', featherColor='Orange', magic='Fire', size=65, strength=187272}  <br /><br />
   
 Process finished with exit code 0
