@@ -1,6 +1,8 @@
 # Assessment_Week1
 ## Output of Question 2
-"C:\Program Files\Java\jdk-15.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=59275:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\sumit.bashetwar\demo\Reflection\target\classes org.example.MonsterRunner
+*"C:\Program Files\Java\jdk-15.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=59275:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\sumit.bashetwar\demo\Reflection\target\classes org.example.MonsterRunner*
+
+
 Number of Monsters to be Added: 
 4
 Details for the 1th monster:
