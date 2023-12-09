@@ -5,7 +5,7 @@ import java.util.*;
 public class MonsterRunner {
     public static void main(String[] args) throws ClassNotFoundException{
         Set<Monster> msSet = new HashSet<>();
-        Map<String,KidMonster> kdMap = new HashMap<>();
+        List<KidMonster> kdList = new ArrayList<>();
         Scanner sc = new Scanner(System.in);//scanner class to take input and passed as function
         System.out.println("Number of Monsters to be Added: ");
         int n = sc.nextInt();
@@ -17,12 +17,14 @@ public class MonsterRunner {
         //Only if there are 2 or more montsers breediing can take place
             if (msSet.size() >= 2) {
                 //runs for monsters/2 times as kid have 2 parent
-                for (int i = 0 ; i < msSet.size()/2 ; i++) {
-                    Monster[] msArray = msSet.toArray(new Monster[0]);
-                    KidMonster kid = msArray[i].createKidWith(msArray[i+1]);
+                for (int i = 0; i < msSet.size()-1; i++) {
+                    for (int j = i+1; j <msSet.size();j++){
+                        Monster[] msArray = msSet.toArray(new Monster[0]);
+                        KidMonster kid = msArray[i].createKidWith(msArray[j]);
                     //System.out.println(kid);
                     //Kids are stored in map
-                    kdMap.put(kid.getMonsterName(), kid);
+                    kdList.add(kid);
+                    }
                 }
             }
             else {
@@ -41,7 +43,7 @@ public class MonsterRunner {
 
         //System.out.println(msSet.toString());
         Monster.displayMonster(msMap);
-        KidMonster.displayKid(kdMap);
+        KidMonster.displayKid(kdList);
     }
     //Used for creating the monsters
     private static Monster createMonster(Scanner sc , int i){

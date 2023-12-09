@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.List;
 import java.util.Map;
 
 class KidMonster extends Monster {
@@ -16,19 +17,16 @@ class KidMonster extends Monster {
         return "{" +
                 "Parent1=" + monsterParent1 +
                 ", Parent2=" + monsterParent2 +
-                "}\n"+"={" +
                 "eyeColor='" + getEyeColor() + '\'' +
                 ", featherColor='" + getFeatherColor() + '\'' +
                 ", magic='" + getMagic() + '\'' +
                 ", size=" +getSize() +
                 ", strength=" + getStrength() +
-                '}';
+                "}\n";
     }
 
-   static void displayKid(Map<String,KidMonster> kdMap){
+   static void displayKid(List<KidMonster> kdList){
        System.out.println("\nThe kids Breeded are:");
-        for (Map.Entry<String,KidMonster> entry:kdMap.entrySet()){
-            System.out.println(entry.getKey()+" "+entry.getValue());
-        }
+       System.out.println(kdList);
     }
 }
